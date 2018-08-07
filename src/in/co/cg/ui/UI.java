@@ -14,7 +14,7 @@ public class UI {
 	AppController appController = (AppController) context.getBean("appController");
 	Employee employee;
 
-	public void acceptData() {
+	public void acceptDataAndOperations() {
 		int cont = 0;
 		do {employee = new Employee();
 			System.out.println("Make choice\n1.Add New Employee\n2.Get All Employee Details\n3.Get Employee Details by ID\n4.Delete Employee By ID\n5.Exit");
